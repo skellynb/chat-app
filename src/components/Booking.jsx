@@ -67,7 +67,7 @@ className="relative flex flex-col md:flex-row items-center min-h-screen bg-[#FAF
   variants={container}
   initial="hidden"
   animate="show"
-  className="flex-1 px-2 p-2  space-y-4 text-xs sm:text-[0.58rem] bg-gray-100 overflow-y-auto no-scrollbar">
+  className="flex-1 px-2 p-2  space-y-4  text-[0.58rem] bg-gray-100 overflow-y-auto no-scrollbar">
     <motion.div 
     variants={message}
     className='flex justify-start' >
@@ -116,7 +116,7 @@ className="relative flex flex-col md:flex-row items-center min-h-screen bg-[#FAF
   {/* Walk option buttons */}
   <div className="p-2 bg-gray-100">
     <div className="flex flex-col  gap-3">
-      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center max-w-[70%] text-xs sm:text-[0.58rem]">
+      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center max-w-[70%]  text-[0.58rem]">
 
         <div className="flex items-center">
           <div className="w-3 h-3 border-1 border-white rounded-full mr-3"></div>
@@ -127,7 +127,7 @@ className="relative flex flex-col md:flex-row items-center min-h-screen bg-[#FAF
         <span className='text-[0.7rem] font-bold'>$29</span>
         </div>
       </button>
-      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center max-w-[70%] text-xs sm:text-[0.58rem]">
+      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center max-w-[70%] text-[0.58rem]">
 
         <div className="flex items-center">
           <div className="w-3 h-3 border-1 border-white rounded-full mr-3"></div>
@@ -147,7 +147,7 @@ className="relative flex flex-col md:flex-row items-center min-h-screen bg-[#FAF
     <input
       type="text"
       placeholder="Type a message..."
-      className="w-full px-4 py-3 rounded-full bg-white  text-xs sm:text-[0.58rem]  focus:outline-none focus:border-purple-300 pr-12 placeholder-[hsl(206_6%_79%)]"
+      className="w-full px-4 py-3 rounded-full bg-white  text-[0.58rem]  focus:outline-none focus:border-purple-300 pr-12 placeholder-[hsl(206_6%_79%)]"
     />
     <button className="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-[#383350] rounded-full flex items-center justify-center">
         <svg className="w-full h-full" fill="#fff" viewBox="0 0 24 24">
