@@ -71,12 +71,12 @@ className="relative flex flex-col md:flex-row items-center min-h-screen bg-[#FAF
     <motion.div 
     variants={message}
     className='flex justify-start' >
-    <div className="bg-[#EDE5F4] text-[hsl(276_55%_52%)]   p-2 rrounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm max-w-[65%]">That sounds great. I’d be happy with that.</div>
+    <div className="bg-[#EDE5F4] text-[hsl(276_55%_52%)]   p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm w-3/4">That sounds great. I’d be happy with that.</div>
     </motion.div>
     <motion.div 
     variants={message}
     className='flex justify-start' >
-    <div className="bg-[#EDE5F4] text-[hsl(276_55%_52%)] p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm max-w-[65%]">Could you send over some pictures of your dog, please?</div>
+    <div className="bg-[#EDE5F4] text-[hsl(276_55%_52%)] p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm w-3/4">Could you send over some pictures of your dog, please?</div>
     </motion.div>
 
     {/* Sample images */}
@@ -96,38 +96,38 @@ className="relative flex flex-col md:flex-row items-center min-h-screen bg-[#FAF
     <motion.div 
     variants={message}
     className="flex justify-end">
-    <div className="bg-white p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm text-[hsl(271_15%_43%)] max-w-[65%] ">Here are a few pictures. She’s a happy girl!</div>
+    <div className="bg-white p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm text-[hsl(271_15%_43%)] w-3/4 ">Here are a few pictures. She’s a happy girl!</div>
     </motion.div>
 
     <motion.div 
     variants={message}
     className="flex justify-end">
-    <div className="bg-white p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm max-w-[65%] text-[hsl(271_15%_43%)] 
+    <div className="bg-white p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm w-3/4 text-[hsl(271_15%_43%)] 
     ">Can you make it?</div>
     </motion.div>
 
       <motion.div 
       variants={message}
       className='flex justify-start' >
-    <div className="bg-[#EDE5F4] text-[hsl(276_55%_52%)]  p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm max-w-[60%] ">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+    <div className="bg-[#EDE5F4] text-[hsl(276_55%_52%)]  p-2 rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm w-3/4 ">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
     </motion.div>
   </motion.div>
 
   {/* Walk option buttons */}
   <div className="p-2 bg-gray-100">
     <div className="flex flex-col  gap-3">
-      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center max-w-[70%]  text-[0.58rem]">
+      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center w-42  text-[0.58rem]">
 
         <div className="flex items-center">
           <div className="w-3 h-3 border-1 border-white rounded-full mr-3"></div>
           <div>
-        <span className='mr-6'>30 minute walk</span> 
+        <span className='mr-5'>30 minute walk</span> 
         </div>
 
         <span className='text-[0.7rem] font-bold'>$29</span>
         </div>
       </button>
-      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center max-w-[70%] text-[0.58rem]">
+      <button className="bg-gradient-to-r from-[hsl(293_100%_63%)] to-purple-600 text-white rounded-tr-lg rounded-br-lg rounded-tl-xl rounded-bl-sm px-4 py-2 text-sm flex justify-between items-center w-42 text-[0.58rem]">
 
         <div className="flex items-center">
           <div className="w-3 h-3 border-1 border-white rounded-full mr-3"></div>
