@@ -37,9 +37,9 @@ className="relative flex flex-col md:flex-row items-center min-h-screen bg-[#FAF
 <div className="relative z-10 flex flex-col md:flex-row items-center w-full p-8">
 {/* Left side with phone mockup */}
 <div className="flex justify-center items-center flex-1">
-<div className="w-[240px] sm:w-[260px] md:w-[280px] h-[480px] sm:h-[500px] md:h-[520px] rounded-[2rem] bg-white p-2 shadow-xl flex flex-col overflow-hidden relative">
+<div className="w-[240px] sm:w-[260px] md:w-[280px] h-[480px] sm:h-[500px] md:h-[520px] rounded-[2rem] bg-white p-2 shadow-[0_10px_40px_rgba(0,0,0,0.1)] flex flex-col overflow-hidden  relative">
   {/* Phone notch */}
-  <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-7 bg-white rounded-b-2xl z-20"></div>
+  <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-7 bg-white rounded-b-2xl z-20 "></div>
   
   {/* Header with avatar and back arrow */}
   <div className="bg-gradient-to-r from-purple-600 to-[hsl(293_100%_63%)] text-white  pt-6 rounded-t-[2rem] rounded-b-[0.5rem] flex items-center ">
